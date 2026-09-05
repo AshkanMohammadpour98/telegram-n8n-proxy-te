@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/tme.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/tme",
+      "dest": "/api/tme.ts"
+    }
+  ]
+}
